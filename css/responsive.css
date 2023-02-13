@@ -1,0 +1,555 @@
+/*************** mobiles and some tablets  *************/
+
+@media (min-width: 370px) and (max-width: 640px) {
+
+	#gallery,
+	#about {
+		margin: 10%;
+	}
+
+	/***************** MOBILE NAV   *****************/
+
+	.bigger-screens-nav {
+		display: none;
+	}
+
+	nav {
+		position: fixed;
+		padding: 1em;
+	}
+
+	.mobile-nav {
+		width: 100%;
+		z-index: 99;
+		display: block;
+		height: auto;
+		position: fixed;
+	}
+
+	.mobile-logo {
+		font-size: 1.2em;
+		font-family: 'Atomic Age', cursive;
+	}
+
+	.mobile-nav-link:hover {
+		text-decoration: underline;
+	}
+
+	.mobile-nav-link {
+		display: block;
+		margin: 1em 4em;
+		font-size: 28px;
+		color: black;
+		text-decoration: none;
+	}
+
+	.hamburger {
+		color: black;
+		position: fixed;
+		z-index: 100;
+		top: 1rem;
+		right: 1rem;
+		padding: 8px;
+		border: rgb(255, 255, 255) solid 1px;
+		background: white;
+	}
+
+	.mobile-nav-links {
+		position: fixed;
+		transform: translateY(-100%);
+		transition: transform 0.5s;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 99;
+		background: white;
+		color: black;
+		list-style: none;
+		padding-top: 4rem;
+	}
+
+	.showMenu {
+		padding-top: 20vh;
+		transform: translateY(0);
+	}
+
+	.closeIcon {
+		font-weight: bold;
+	}
+
+	/******************** BOOK A TABLE  *****************/
+
+
+	.booking-form h3 {
+		font-size: 23px;
+		padding: 1vh 3vh;
+	}
+
+	.close {
+		padding-right: 3vh;
+	}
+
+	.booking-form form {
+		padding: 1em;
+		width: 90%;
+	}
+
+	.form-input-container {
+		padding: 2vh;
+	}
+
+	.form-input-container input[type="submit"] {
+		width: 35%;
+		padding: 0.5em 0;
+		font-size: 16px;
+	}
+
+	.form-input-container textarea {
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+
+	/************************ SLIDER  ************************/
+
+	.slider-gallery img {
+		height: 30vh;
+	}
+
+	.slider-btn {
+		margin: 0 2vh 2vh 0;
+		font-size: 10px;
+		padding: 1em 2em;
+	}
+
+
+	/********************** READ MORE SECTION ****************/
+
+	.read-more {
+		margin-top: 5vh;
+		margin-bottom: 8vh;
+	}
+
+	.read-more-h1 {
+		font-size: 1.8em;
+	}
+
+	.read-more-container p {
+		font-size: 15px;
+		padding: 1em 10%;
+		line-height: 1.5;
+	}
+
+	.read-more-btn {
+		margin-top: 2vh;
+	}
+
+	.read-more-btn button {
+		padding: 0.5em 2em;
+	}
+
+	/************** ABOUT SECTION **************/
+	.about {
+		height: auto;
+		padding: 0;
+	}
+
+	.about-h1 {
+		padding-bottom: 2vh;
+		font-size: 2.8em;
+	}
+
+	.about-text-container {
+		padding: 2.5em 10%;
+		width: 100%;
+		font-weight: 600;
+	}
+
+	.about-text-container p {
+		font-size: 15px;
+		width: 100%;
+	}
+
+	/************************ GALLERY SECTION *******************/
+
+	.gallery-container {
+		margin-top: 5vh;
+		display: flex;
+		padding: 0;
+		flex-direction: column;
+	}
+
+	.gallery-h1 {
+		font-size: 2em;
+		padding-bottom: 0vh;
+		padding-top: 2vh;
+	}
+
+	.grid-container {
+		grid-template-columns: 1fr 1fr;
+		grid-row-gap: 2vh;
+		grid-column-gap: 1vw;
+	}
+
+	.grid-item img {
+		padding-top: 2em;
+		width: 100%;
+		height: 102%;
+		object-fit: cover;
+	}
+
+	.grid-text {
+		padding-top: 2em;
+		font-size: 13px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.grid-text h3 {
+		font-weight: 800;
+		font-size: 1.5em;
+	}
+
+	.grid-text p {
+		color: black;
+		margin-top: 0vh;
+		width: 90%;
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	.grid-text span {
+		font-weight: bolder;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	/****************** NEWSLETTER  ********************/
+
+	.newsletter {
+		padding-bottom: 3vh;
+	}
+
+	.newsletter form {
+		width: 100%;
+	}
+
+	form h2 {
+		font-size: 1.25em;
+		padding: 0.5em 0;
+	}
+
+	.form-container {
+		width: 100%;
+	}
+
+	.form-container input[type='text'],
+	.form-container input[type='email'] {
+		padding: 0.4em;
+	}
+
+	.form-container label {
+		font-weight: 800;
+		font-size: 1em;
+	}
+
+	.form-btn-container {
+		justify-content: center;
+	}
+
+	/***************************** FOOTER ***********************/
+
+	footer {
+		width: 100%;
+		height: auto;
+		padding-bottom: 3vh;
+	}
+
+	.footer-container {
+		font-size: 10px;
+		gap: 0em;
+		padding: 1em 10%;
+	}
+
+	.address {
+		gap: 1vh;
+		font-size: 1.1em;
+	}
+
+	.address p span {
+		font-weight: bolder;
+	}
+
+	.contact {
+		gap: 1vh;
+	}
+
+	.fa-solid,
+	.fa-regular {
+		padding-right: 1vw;
+	}
+
+	.some {
+		gap: 3vw;
+	}
+}
+
+/********************* TABLET --- tested with : iPAD Air & Mini *****************/
+
+@media (min-width: 765px) and (max-width: 1025px) {
+
+	#gallery,
+	#about {
+		margin: 10%;
+	}
+
+	/******************* MOBILE NAV   *****************/
+
+	nav {
+		position: fixed;
+		padding: 1em;
+	}
+
+	.mobile-nav {
+		display: none;
+	}
+
+	.logo {
+		font-size: 1.8em;
+	}
+
+
+	/****************** BOOK A TABLE  *****************/
+
+
+	.booking-form h3 {
+		font-size: 23px;
+		padding: 1vh 3vh;
+	}
+
+	.close {
+		padding-right: 3vh;
+	}
+
+	.booking-form form {
+		padding: 1em;
+		width: 60%;
+	}
+
+	.form-input-container {
+		padding: 2vh;
+	}
+
+	.form-input-container input[type="submit"] {
+		width: 35%;
+		padding: 0.5em 0;
+		font-size: 16px;
+	}
+
+	.form-input-container textarea {
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	/*************************** SLIDER  **********************/
+
+	.slider-gallery img {
+		height: 30vh;
+	}
+
+	.slider-btn {
+		margin: 0 2vh 2vh 0;
+		font-size: 20px;
+		padding: 1em 2em;
+	}
+
+	.slider-btn:hover {
+		background-color: var(--brown);
+		transition: all 0.3s;
+	}
+
+	/*********************** READ MORE SECTION *******************/
+
+	.read-more {
+		margin-top: 10vh;
+		margin-bottom: 10vh;
+	}
+
+	.read-more-h1 {
+		font-size: 2.8em;
+	}
+
+	.read-more-container p {
+		font-size: 25px;
+		font-weight: 600;
+		padding: 1em 10%;
+		letter-spacing: 1px;
+		line-height: 1.5;
+	}
+
+	.read-more-btn {
+		margin-top: 2vh;
+	}
+
+	.read-more-btn button {
+		padding: 0.6em 2em;
+		font-size: 1.5em;
+	}
+
+	/************************** ABOUT SECTION ********************/
+	.about {
+		margin-top: 10vh;
+		height: 60vh;
+		padding: 0;
+	}
+
+	.about-h1 {
+		padding-bottom: 2vh;
+		font-size: 2.8em;
+	}
+
+	.about-text-container {
+		padding: 2em 5%;
+		font-size: 16px;
+		width: 50%;
+		font-weight: 600;
+	}
+
+	.about-text-container p {
+		width: 100%;
+		font-size: 1.3em;
+	}
+
+	/************************ GALLERY SECTION **********************/
+
+	.gallery-container {
+		margin-top: 5vh;
+		display: flex;
+		padding: 0;
+		flex-direction: column;
+	}
+
+	.gallery-h1 {
+		font-size: 2.5em;
+		padding-bottom: 0vh;
+		padding-top: 2vh;
+	}
+
+	.grid-container {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.grid-item img {
+		padding-top: 2em;
+		width: 100%;
+		height: auto;
+	}
+
+	.grid-text {
+		padding-top: 2em;
+
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.grid-text h3 {
+		font-weight: 800;
+		font-size: 1.6em;
+	}
+
+	.grid-text p {
+		color: black;
+		margin-top: 0.5vh;
+		width: 85%;
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	.grid-text span {
+		font-weight: bolder;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	/************************** NEWSLETTER  ********************/
+
+	.newsletter {
+		display: flex;
+		justify-content: center;
+	}
+
+	.newsletter form {
+		width: 60%;
+	}
+
+	form h2 {
+		font-size: 1.7em;
+		padding: 0.6em 0.5em;
+	}
+
+	.form-container {
+		width: 100%;
+	}
+
+	.form-container input[type='text'],
+	.form-container input[type='email'] {
+		padding: 0.8em;
+	}
+
+	.form-container label {
+		font-weight: 800;
+		font-size: 1.1em;
+	}
+
+	.form-btn-container {
+		justify-content: center;
+	}
+
+	.form-btn {
+		padding: 0.5em 2em;
+		font-size: 1.2em;
+	}
+
+	/********************* FOOTER ************************/
+
+	footer {
+		width: 100%;
+		height: auto;
+		padding: 5vh 0;
+	}
+
+	.footer-container {
+		gap: 0em;
+	}
+
+	.address {
+		gap: 0.5vh;
+		font-size: 1.1em;
+	}
+
+	.address p span {
+		font-weight: bolder;
+	}
+
+	.contact {
+		gap: 1vh;
+	}
+
+	.fa-solid,
+	.fa-regular {
+		padding-right: 1vw;
+	}
+
+	.some {
+		gap: 4vw;
+	}
+}
