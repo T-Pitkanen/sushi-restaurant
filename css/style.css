@@ -7,7 +7,6 @@
 	scroll-behavior: smooth;
 }
 
-
 a {
 	text-decoration: none;
 	color: inherit;
@@ -30,7 +29,7 @@ body {
 }
 
 button,
-input[type="submit"] {
+input[type='submit'] {
 	cursor: pointer;
 }
 
@@ -82,7 +81,6 @@ nav {
 	z-index: 150;
 }
 
-
 .booking-form {
 	display: flex;
 	align-items: center;
@@ -110,9 +108,8 @@ nav {
 }
 
 .booking-form form {
-	
 	border-radius: 50px;
-	background-color: rgb(53, 14, 14);
+	background-color: rgb(36, 9, 9);
 	padding: 2em;
 	width: 30%;
 	display: flex;
@@ -128,9 +125,8 @@ nav {
 	align-items: center;
 }
 
-.form-input-container input[type="text"],
-input[type="date"] {
-
+.form-input-container input[type='text'],
+input[type='date'] {
 	font-size: 1em;
 	background-color: var(--beige);
 	width: 100%;
@@ -154,7 +150,7 @@ input[type="date"] {
 	padding: 1em;
 }
 
-.form-input-container input[type="submit"] {
+.form-input-container input[type='submit'] {
 	background-color: var(--beige);
 	color: white;
 	font-size: 1em;
@@ -166,12 +162,10 @@ input[type="date"] {
 	cursor: pointer;
 }
 
-.form-input-container input[type="submit"]:hover {
+.form-input-container input[type='submit']:hover {
 	background-color: #c5ae95;
 	transition: all 0.3s;
 }
-
-
 
 /***************** IMAGE SLIDER ****************/
 

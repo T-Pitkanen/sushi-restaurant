@@ -72,7 +72,6 @@ function changeSlides() {
 const open = document.querySelector('.slider-btn');
 const close = document.querySelector('.close');
 const booking = document.querySelector('.booking-container');
-const body = document.body;
 
 //When 'open' is clicked, sets 'booking' elements style to block
 open.onclick = function () {
