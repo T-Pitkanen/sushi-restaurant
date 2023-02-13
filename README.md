@@ -1,3 +1,3 @@
 # Sushi Royal
 
-A Quick School Project from December 2022.
+A quick school project from December 2022.
