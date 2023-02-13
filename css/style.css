@@ -110,8 +110,9 @@ nav {
 }
 
 .booking-form form {
+	outline: 2px solid rgb(34, 3, 3);
 	border-radius: 50px;
-	background-color: var(--brown);
+	background-color: rgb(53, 14, 14);
 	padding: 2em;
 	width: 30%;
 	display: flex;
@@ -156,6 +157,7 @@ input[type="date"] {
 .form-input-container input[type="submit"] {
 	background-color: var(--beige);
 	color: white;
+	font-size: 1em;
 	font-weight: 600;
 	width: 25%;
 	border: none;
